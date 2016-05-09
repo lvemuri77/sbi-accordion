@@ -1,4 +1,13 @@
-
+body,h1{
+	font-size:15px;
+}
+h1{
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+h4{
+	font-size:15px;
+}
 .logo{
 	margin-top:100px;
 }
@@ -14,18 +23,17 @@
 
     color:blue;
     line-height:180px;
-    font-size:18px;
+    font-size:10px;
     width:100%;
+	height: 20px;
 
 }
 
 .mid-div{
     background: white;
     color:blue;
-    line-height:180px;
-    font-size:18px;
     width:100%;
-    height:180px;
+    height:50px;
 }
 
 .bottom-div{
@@ -40,9 +48,9 @@
 
     color:blue;
     line-height:180px;
-    font-size:18px;
+    font-size:10px;
     width:100%;
-
+	height: 20px;
 
 }
 
@@ -54,9 +62,13 @@
 .raffle{
     background:#64ddef;
     height:auto;
-    margin-top: 20px;
+    margin-top: 6px;
     box-shadow:inset 0 0 1em #64ddef;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+}
+.raffle1{
+
+    padding-bottom: 0;
 }
 .back{
 	background-image: url("images/back.png");
@@ -65,6 +77,7 @@
     /* margin-right: 2px; */
     float: left;
     display: block;
+	font-size: 15px;
 }
 
 .text-raffle-grad{
@@ -101,7 +114,11 @@
 .sub{
     background-image: url("images/back.png");
 	margin-top:15px;
-	font-size: 15px;
+
+}
+.sub1{
+    width:100%;
+	margin-top:0;
 }
 
 .top{
